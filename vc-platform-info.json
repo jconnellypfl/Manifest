@@ -1,0 +1,2118 @@
+{
+	"platformVersion": "3.220.0",
+	"installedModules": [
+		{
+			"version": "0.7.0-rc.0",
+			"platformVersion": "3.216.0",
+			"title": "Advanced Product Module",
+			"description": "A module developed by PFL to support HXP within VirtoCommerce.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2021 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "DbContextExtension.Catalog",
+					"version": {
+						"major": 2,
+						"minor": 8,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 201,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Customer",
+					"version": {
+						"major": 3,
+						"minor": 201,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Inventory",
+					"version": {
+						"major": 3,
+						"minor": 202,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Pricing",
+					"version": {
+						"major": 3,
+						"minor": 203,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "AdvancedProduct"
+		},
+		{
+			"version": "0.9.0-rc.0",
+			"platformVersion": "3.220.0",
+			"title": "Advanced Security",
+			"description": "Supports custom SSO Providers, including PFL Identity.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2021 PFL. All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Customer",
+					"version": {
+						"major": 3,
+						"minor": 205,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "AdvancedSecurity"
+		},
+		{
+			"version": "1.6.0-rc.0",
+			"platformVersion": "3.210.0",
+			"title": "Custom Shipping Methods",
+			"description": "Module to support HXP's custom shipping methods.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2022 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Shipping",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Cart",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 201,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "CustomShippingMethods"
+		},
+		{
+			"version": "2.8.0",
+			"platformVersion": "3.216.0",
+			"title": "DbContextExtension.Catalog",
+			"description": "Module for Catalog dbContext extensions.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Add InternalName field to product.",
+			"copyright": "Copyright © 2021 PFL. All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 202,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Shipping",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 201,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "DbContextExtension.Catalog"
+		},
+		{
+			"version": "0.2.0-rc.0",
+			"platformVersion": "3.204.0",
+			"title": "Homepage Module",
+			"description": "Supports modifications to the homepage.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2021 PFL. All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "homepage"
+		},
+		{
+			"version": "0.4.0-rc.0",
+			"platformVersion": "3.204.0",
+			"title": "Organizations module",
+			"description": "Organization Management for Stores and Catalogs. Functionality taken and extended from Welcome Wizard.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				""
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2021 . All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "module_organization"
+		},
+		{
+			"version": "0.4.0-rc.0",
+			"platformVersion": "3.216.0",
+			"title": "Cart Management Module",
+			"description": "Module to expand cart functionality in Virto.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Update to .NET 6. Extended Cart update process to save Proofs in the DB",
+			"copyright": "Copyright © 2022 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "ModuleDbContextExtensionCart",
+					"version": {
+						"major": 0,
+						"minor": 2,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ModuleCartManagement"
+		},
+		{
+			"version": "0.3.0-rc.0",
+			"platformVersion": "3.216.0",
+			"title": "ModuleDbContextExtensionCart",
+			"description": "Cart DbContext extension to support additional schema changes",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Cart proofs schema support. Update to .NET 6.",
+			"copyright": "Copyright © 2022 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Cart",
+					"version": {
+						"major": 3,
+						"minor": 201,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ModuleDbContextExtensionCart"
+		},
+		{
+			"version": "0.2.0-rc.0",
+			"platformVersion": "3.204.0",
+			"title": "DbContextExtensionCustomer Module",
+			"description": "A module developed by PFL to extend the Customer DbContext.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2021 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Customer",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ModuleDbContextExtensionCustomer"
+		},
+		{
+			"version": "0.6.0-rc.0",
+			"platformVersion": "3.210.0",
+			"title": "ModuleDbContextExtensionOrder",
+			"description": "Module for Order dbContext extensions.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Order item proof address support. Update to .NET 6.",
+			"copyright": "Copyright © 2022 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Orders",
+					"version": {
+						"major": 3,
+						"minor": 204,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ModuleDbContextExtensionOrder"
+		},
+		{
+			"version": "0.3.0-rc.0",
+			"platformVersion": "3.209.0",
+			"title": "ModuleDbContextExtensionStore",
+			"description": "A module developed by PFL to support HXP within VirtoCommerce. Extends the Store database model.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2022 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 201,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ModuleDbContextExtensionStore"
+		},
+		{
+			"version": "0.5.0-rc.0",
+			"platformVersion": "3.220.0",
+			"title": "Order Management Module",
+			"description": "Module to expand orders functionality in Virto.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Processed orderform_executed_event",
+			"copyright": "Copyright © 2022 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "ModuleDbContextExtensionOrder",
+					"version": {
+						"major": 0,
+						"minor": 6,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "ModuleDbContextExtensionCart",
+					"version": {
+						"major": 0,
+						"minor": 2,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "Pfl.ApacheKafka",
+					"version": {
+						"major": 0,
+						"minor": 9,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ModuleOrderManagement"
+		},
+		{
+			"version": "0.1.0-rc.9",
+			"platformVersion": "3.210.0",
+			"title": "Store Management Module",
+			"description": "Module to extend store functionality in Virto.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2022 PFL. All rights reserved.",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "ModuleDbContextExtensionStore",
+					"version": {
+						"major": 0,
+						"minor": 3,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ModuleStoreManagement"
+		},
+		{
+			"version": "0.9.0",
+			"platformVersion": "3.220.0",
+			"title": "Apache Kafka module",
+			"description": "Event bus module extension with support for Apache Kafka",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Configured and registered KafkaFactory from _PFL.Kafka.Core",
+			"copyright": "Copyright © 2021 PFL. All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.EventBus",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "Pfl.ApacheKafka"
+		},
+		{
+			"version": "0.4.0-rc.0",
+			"platformVersion": "3.204.0",
+			"title": "PFL Catalog Publishing Module Extension",
+			"description": "Extends the catalog publishing module with custom completeness evaluators.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Added import/export functionality for completeness channels.",
+			"copyright": "Copyright © 2021 PFL. All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Inventory",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.CatalogPublishing",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Pricing",
+					"version": {
+						"major": 3,
+						"minor": 201,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "DbContextExtension.Catalog",
+					"version": {
+						"major": 2,
+						"minor": 4,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "Pfl.CatalogPublishing"
+		},
+		{
+			"version": "0.14.0-rc.0",
+			"platformVersion": "3.220.0",
+			"title": "Product Management Module",
+			"description": "Added product shipping admin UI.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "GetCategoriesInCatalog endpoint returns all results instead of 20 only. Supported Platform 3.220.",
+			"copyright": "Copyright © 2021 PFL. All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "DbContextExtension.Catalog",
+					"version": {
+						"major": 2,
+						"minor": 8,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "Pfl.ApacheKafka",
+					"version": {
+						"major": 0,
+						"minor": 3,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 210,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Pricing",
+					"version": {
+						"major": 3,
+						"minor": 203,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "ProductManagement"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Assets module",
+			"description": "",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/vc-module-assets",
+			"iconUrl": "Modules/$(VirtoCommerce.AssetsModule)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Assets"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Avalara tax",
+			"description": "APIs and UI for Avalara tax integration",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/integration-with-avalara-tax-service",
+			"iconUrl": "Modules/$(VirtoCommerce.AvalaraTax)/Content/400.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Orders",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Inventory",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Shipping",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Tax",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.AvalaraTax"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Azure blob assets module",
+			"description": "",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/vc-module-azureblob-assets",
+			"iconUrl": "Modules/$(VirtoCommerce.AzureBlobAssetsModule)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.AzureBlobAssets"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Bulk Actions",
+			"description": "Bulk actions module",
+			"authors": [
+				"Burashov T.S."
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2020 - 2021 Virto Commerce. All rights reserved",
+			"groups": [],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.BulkActionsModule"
+		},
+		{
+			"version": "3.201.0",
+			"platformVersion": "3.200.0",
+			"title": "Shopping cart module",
+			"description": "Shopping cart / checkout functionality",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-shoppingcart-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Cart)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Payment",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Shipping",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Cart"
+		},
+		{
+			"version": "3.218.0",
+			"platformVersion": "3.207.0",
+			"title": "Catalog module",
+			"description": "Catalog, categories, products, variations, properties management",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-catalog-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Catalog)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Third version.",
+			"copyright": "Copyright © 2011-2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 204,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Export",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.BulkActionsModule",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Catalog"
+		},
+		{
+			"version": "3.202.0",
+			"platformVersion": "3.200.0",
+			"title": "Csv Catalog Import Module",
+			"description": "Adds CSV import functionality to catalog",
+			"authors": [
+				"ksa"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"requireLicenseAcceptance": false,
+			"copyright": "Copyright © 2011-2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Inventory",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Pricing",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.CatalogCsvImportModule"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Catalog personalization module",
+			"description": "Personalization feature for the products and categories.",
+			"authors": [
+				"Eugeney Tarincev",
+				"Artyom Androsov",
+				"Artem Dudarev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://github.com/VirtoCommerce/vc-module-catalog-personalization",
+			"iconUrl": "Modules/$(VirtoCommerce.CatalogPersonalization)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.CatalogPersonalization"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Catalog publishing module",
+			"description": "Allow you to see progress on filling in information about products and marks missed info.",
+			"authors": [
+				"Alexey Antonov",
+				"Andrew Orlov",
+				"Aleksandr Vishnyakov",
+				"Artem Dudarev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/catalog-publishing",
+			"iconUrl": "Modules/$(VirtoCommerce.CatalogPublishing)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Initial implementation of module features.",
+			"copyright": "Copyright © 2020 - 2021 Virto Commerce. All rights reserved",
+			"groups": [],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Pricing",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.CatalogPublishing"
+		},
+		{
+			"version": "3.203.0",
+			"platformVersion": "3.200.0",
+			"title": "CMS Content module",
+			"description": "Front-end CMS functionality based on liquid technology",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-cms-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Content)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.AzureBlobAssets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.FileSystemAssets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Content"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Commerce core module",
+			"description": "Common e-commerce domain functionality",
+			"authors": [
+				"Eugeny Tatarincev",
+				"Artem Dudarev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-core-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Core)/Content/logoVC.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Core"
+		},
+		{
+			"version": "3.205.0",
+			"platformVersion": "3.200.0",
+			"title": "Customer management module",
+			"description": "Managing customers contacts and organizations",
+			"authors": [
+				"Artem Dudarev",
+				"Egidijus Mažeika"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-customer-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Customer)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2011-2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 202,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Customer"
+		},
+		{
+			"version": "3.205.0",
+			"platformVersion": "3.200.0",
+			"title": "Elastic Search module",
+			"description": "Indexed search functionality with Elastic engine",
+			"authors": [
+				"Artem Dudarev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://github.com/VirtoCommerce/vc-module-elastic-search",
+			"iconUrl": "Modules/$(VirtoCommerce.Elasticsearch)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Third version.",
+			"copyright": "Copyright © 2020 - 2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 204,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.ElasticSearch"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Event Bus module",
+			"description": "The module enables you to be notified of new messages or changes via a Message Queue of your choice",
+			"authors": [
+				"Andrei Kostyrin",
+				"Konstantin Savosteev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"iconUrl": "Modules/$(VirtoCommerce.EventBus)/Content/logo.svg",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2022 Virto Commerce. All rights reserved",
+			"groups": [],
+			"dependencies": [],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.EventBus"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Generic Export module",
+			"description": "Generic export functionality",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"iconUrl": "Modules/$(VirtoCommerce.Export)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Export"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "File system assets module",
+			"description": "",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/vc-module-filesystem-assets",
+			"iconUrl": "Modules/$(VirtoCommerce.FileSystemAssetsModule)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.FileSystemAssets"
+		},
+		{
+			"version": "3.203.0",
+			"platformVersion": "3.200.0",
+			"title": "Image tools module",
+			"description": "Image tools helps to automate image transformation procedures such as resizing and cropping",
+			"authors": [
+				"Konstantin Savosteev",
+				"Nikolay Prohorov",
+				"Eugeney Tatarincev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/image-tools-module",
+			"iconUrl": "Modules/$(VirtoCommerce.ImageTools)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "First version.",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.ImageTools"
+		},
+		{
+			"version": "3.203.0",
+			"platformVersion": "3.200.0",
+			"title": "Inventory module",
+			"description": "Simplify inventory management functionality",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-inventory-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Inventory)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"copyright": "Copyright © 2011-2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 202,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Inventory"
+		},
+		{
+			"version": "3.203.0",
+			"platformVersion": "3.200.0",
+			"title": "Lucene Search module",
+			"description": "Indexed search functionality with Lucene engine",
+			"authors": [
+				"Artem Dudarev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-lucene-search-module",
+			"iconUrl": "Modules/$(VirtoCommerce.LuceneSearch)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Third version.",
+			"copyright": "Copyright 2011-2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 204,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.LuceneSearch"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Marketing module",
+			"description": "Marketing system with dynamic contents and promotions management",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-marketing-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Marketing)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Third version.",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Orders",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Shipping",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Payment",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Marketing"
+		},
+		{
+			"version": "3.204.0",
+			"platformVersion": "3.200.0",
+			"title": "Notifications module",
+			"description": "description",
+			"authors": [
+				"Eugeny Tatarincev",
+				"Andrei Kostyrin"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-module-notification",
+			"iconUrl": "Modules/$(VirtoCommerce.Notifications)/Content/logoVC.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Notifications"
+		},
+		{
+			"version": "3.204.0",
+			"platformVersion": "3.200.0",
+			"title": "Orders module",
+			"description": "Document based flexible orders management system",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-orders-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Orders)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"copyright": "Copyright © 2011-2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Customer",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Payment",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Shipping",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Notifications",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Cart",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Inventory",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 202,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Orders"
+		},
+		{
+			"version": "3.204.0",
+			"platformVersion": "3.200.0",
+			"title": "Payment module",
+			"description": "Add payment methods management",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-payment-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Payment)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Payment"
+		},
+		{
+			"version": "3.206.0",
+			"platformVersion": "3.200.0",
+			"title": "Pricing module",
+			"description": "Robust pricing management functionality based on price list and dynamic evaluation",
+			"authors": [
+				"Eugeney Tatarincev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-pricing-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Pricing)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Catalog",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Export",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Search",
+					"version": {
+						"major": 3,
+						"minor": 202,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Assets",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Pricing"
+		},
+		{
+			"version": "3.206.0",
+			"platformVersion": "3.200.0",
+			"title": "Search module",
+			"description": "Search module",
+			"authors": [
+				"Eugeny Tatarincev"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-core-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Search)/Content/logoVC.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Search"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Shipping module",
+			"description": "Add shipping methods management",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-shipping-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Shipping)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Shipping"
+		},
+		{
+			"version": "3.203.0",
+			"platformVersion": "3.200.0",
+			"title": "Store module",
+			"description": "Multi store management with individual store settings",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-store-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Store)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2011-2022 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Notifications",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Store"
+		},
+		{
+			"version": "3.200.0",
+			"platformVersion": "3.200.0",
+			"title": "Tax module",
+			"description": "Tax and fees",
+			"authors": [
+				"Virto Commerce"
+			],
+			"owners": [
+				"Virto Commerce"
+			],
+			"projectUrl": "https://virtocommerce.com/apps/extensions/virto-tax-module",
+			"iconUrl": "Modules/$(VirtoCommerce.Tax)/Content/logo.png",
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "",
+			"copyright": "Copyright © 2011-2021 Virto Commerce. All rights reserved",
+			"groups": [
+				"commerce"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Core",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "VirtoCommerce.Tax"
+		},
+		{
+			"version": "0.10.0-alpha-HXP-60-Remove-EmailConfirmed-Validation.1",
+			"platformVersion": "3.220.0",
+			"title": "Welcome Wizard Module",
+			"description": "Wizard for handling new customer creation, including the assignment of roles and permissions for new SSO users.",
+			"authors": [
+				"PFL"
+			],
+			"owners": [
+				"PFL"
+			],
+			"requireLicenseAcceptance": false,
+			"releaseNotes": "Updated Kafka module dependency to 0.9.0",
+			"copyright": "Copyright © 2021 PFL. All rights reserved",
+			"groups": [
+				"pfl"
+			],
+			"dependencies": [
+				{
+					"id": "VirtoCommerce.Content",
+					"version": {
+						"major": 3,
+						"minor": 202,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Customer",
+					"version": {
+						"major": 3,
+						"minor": 200,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "VirtoCommerce.Store",
+					"version": {
+						"major": 3,
+						"minor": 203,
+						"patch": 0,
+						"prerelease": ""
+					}
+				},
+				{
+					"id": "Pfl.ApacheKafka",
+					"version": {
+						"major": 0,
+						"minor": 9,
+						"patch": 0,
+						"prerelease": ""
+					}
+				}
+			],
+			"validationErrors": [],
+			"isRemovable": false,
+			"isInstalled": true,
+			"id": "WelcomeWizard"
+		}
+	],
+	"version": "6.0.5",
+	"is64BitOperatingSystem": true,
+	"is64BitProcess": true
+}
